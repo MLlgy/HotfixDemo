@@ -1,0 +1,19 @@
+.DS_Store
+*.swp
+
+# Gradle
+build
+.gradle/
+.idea/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+local.properties
+
+# Others
+nohup.out
