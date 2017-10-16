@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mk.hotfixdemo">
 
-    <!--网络权限-->
+    <!-- 网络权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!--外部存储读权限，调试工具加载本地补丁需要-->
+    <!-- 外部存储读权限，调试工具加载本地补丁需要 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -25,7 +25,6 @@
             </intent-filter>
         </activity>
 
-
         <meta-data
             android:name="com.taobao.android.hotfix.IDSECRET"
             android:value="24652222-1" />
@@ -35,6 +34,8 @@
         <meta-data
             android:name="com.taobao.android.hotfix.RSASECRET"
             android:value="@string/ras" />
+
+        <activity android:name=".SecondActivity"></activity>
     </application>
 
 </manifest>
