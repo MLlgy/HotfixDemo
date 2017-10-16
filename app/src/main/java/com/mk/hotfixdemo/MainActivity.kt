@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         tv_show_toast.setOnClickListener { Toast.makeText(this, msg, Toast.LENGTH_SHORT).show() }
-        tv_jump_two_second.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
-        }
+//        tv_jump_two_second.setOnClickListener {
+//            startActivity(Intent(this, SecondActivity::class.java))
+//        }
     }
 }
